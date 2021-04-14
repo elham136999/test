@@ -1,0 +1,42 @@
+.title {
+  font-family: "titr", sans-serif;
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: $color-gray;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  .education {
+    width: 15rem;
+    height: 21rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    border: none;
+    outline: none;
+    box-shadow: 0.1rem 0.1rem 0.5rem rgb(204, 204, 204);
+    border-radius: 10px;
+
+    .image {
+      width: 90%;
+      margin-top: 0.8rem;
+    }
+    .text {
+      font-family: "titr", sans-serif;
+      font-size: 1.2rem;
+      padding: 0.75rem;
+    }
+    .span {
+      display: inline-block;
+      font-size: 1.1rem;
+      padding: 0.75rem;
+    }
+  }
+}

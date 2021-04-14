@@ -16,9 +16,9 @@
 
 .header .navbar-list .nav a li {
   color: #fff;
-  font-family: "vazir", sans-serif;
-  font-size: 1rem;
-  padding: 0.4rem;
+  font-family: "titr", sans-serif;
+  font-size: 1.5rem;
+  padding: 0.8rem;
   transition: 0.5s;
 }
 
@@ -50,9 +50,60 @@
   padding: 0.8rem;
 }
 
+.header .content-main:hover {
+  color: #fff;
+}
+
 .header .content-sub {
   color: #fff;
   font-size: 0.75rem;
+}
+
+.title {
+  font-family: "titr", sans-serif;
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row .education {
+  width: 15rem;
+  height: 21rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  border: none;
+  outline: none;
+  box-shadow: 0.1rem 0.1rem 0.5rem #cccccc;
+  border-radius: 10px;
+}
+
+.row .education .image {
+  width: 90%;
+  margin-top: 0.8rem;
+}
+
+.row .education .text {
+  font-family: "titr", sans-serif;
+  font-size: 1.2rem;
+  padding: 0.75rem;
+}
+
+.row .education .span {
+  display: inline-block;
+  font-size: 1.1rem;
+  padding: 0.75rem;
 }
 
 *,
@@ -73,6 +124,13 @@ html {
   src: url("/fonts/Vazir-Bold.ttf");
   src: url("/fonts/Vazir-Bold.woff");
   src: url("/fonts/Vazir-Light.woff2");
+}
+
+@font-face {
+  font-family: "titr";
+  src: url("../fonts/BTitrBold.eot");
+  src: url("../fonts/BTitrBold.ttf");
+  src: url("../fonts/BTitrBold.woff");
 }
 
 body {
