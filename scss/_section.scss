@@ -1,5 +1,9 @@
 .container {
   background-color: $color-green-light;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
@@ -15,6 +19,18 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  @media (min-width: 1024px) {
+    flex-wrap: nowrap;
+    padding: 2rem;
+  }
+
   .education {
     width: 15rem;
     height: 21rem;
@@ -28,20 +44,41 @@
     box-shadow: 0.1rem 0.1rem 0.5rem rgb(204, 204, 204);
     border-radius: 10px;
     background-color: $color-white;
+    @media (min-width: 768px) {
+      width: 22rem;
+      height: 30rem;
+      margin-top: 1.5rem;
+    }
+    @media (min-width: 1024px) {
+      width: 18rem;
+      height: 28rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
 
     .image {
       width: 90%;
       margin-top: 0.8rem;
+      @media (min-width: 768px) {
+        width: 80%;
+      }
     }
     .text {
       font-family: "titr", sans-serif;
       font-size: 1.2rem;
       padding: 0.75rem;
+      @media (min-width: 425px) {
+        font-size: 1.4rem;
+      }
     }
     .span {
       display: inline-block;
       font-size: 1.1rem;
-      padding: 0.75rem;
+      //  * padding: 0.5rem 0 1.5rem 0;
+      @media (min-width: 1024px) {
+        padding: 0;
+      }
     }
   }
 }
@@ -58,6 +95,9 @@
   outline: none;
   border: none;
   transition: 0.5s;
+  @media (min-width: 425px) {
+    font-size: 1.2rem;
+  }
 
   &:hover {
     background-color: $color-orange;
