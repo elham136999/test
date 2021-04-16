@@ -9,26 +9,11 @@
     &-list {
       .nav {
         text-align: center;
-        a {
-          text-decoration: none;
-          list-style: none;
-          li {
-            color: $color-white;
-            font-family: "titr", sans-serif;
-            font-size: 1.5rem;
-            padding: 0.8rem;
-            transition: 0.5s;
-            &:hover {
-              color: $color-orange;
-              letter-spacing: 0.2rem;
-            }
-          }
-        }
       }
     }
   }
   .logo .fas {
-    font-size: 0.9rem;
+    font-size: 2rem;
     color: $color-white;
     text-align: center;
     line-height: 1.5rem;
@@ -41,6 +26,7 @@
   .content {
     text-align: center;
     margin-top: 1.5rem;
+
     &-main {
       color: $color-orange;
       padding: 0.8rem;
@@ -51,7 +37,22 @@
     }
     &-sub {
       color: $color-white;
-      font-size: 0.75rem;
+      font-size: 0.85rem;
+    }
+  }
+}
+a {
+  text-decoration: none;
+  list-style: none;
+  li {
+    color: $color-white;
+    font-family: "titr", sans-serif;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    transition: 0.5s;
+    &:hover {
+      color: $color-orange;
+      letter-spacing: 0.2rem;
     }
   }
 }

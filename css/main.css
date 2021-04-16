@@ -9,26 +9,8 @@
   text-align: center;
 }
 
-.header .navbar-list .nav a {
-  text-decoration: none;
-  list-style: none;
-}
-
-.header .navbar-list .nav a li {
-  color: #fff;
-  font-family: "titr", sans-serif;
-  font-size: 1.5rem;
-  padding: 0.8rem;
-  transition: 0.5s;
-}
-
-.header .navbar-list .nav a li:hover {
-  color: orangered;
-  letter-spacing: 0.2rem;
-}
-
 .header .logo .fas {
-  font-size: 0.9rem;
+  font-size: 2rem;
   color: #fff;
   text-align: center;
   line-height: 1.5rem;
@@ -56,7 +38,25 @@
 
 .header .content-sub {
   color: #fff;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+a li {
+  color: #fff;
+  font-family: "titr", sans-serif;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  transition: 0.5s;
+}
+
+a li:hover {
+  color: orangered;
+  letter-spacing: 0.2rem;
 }
 
 .container {
@@ -153,6 +153,57 @@
   font-family: "titr", sans-serif;
   font-size: 2rem;
   color: #022247;
+}
+
+.section-two .content-text .btn {
+  margin: 2rem auto;
+  display: block;
+}
+
+footer {
+  background-color: #022247;
+  text-align: center;
+  padding: 1.5rem auto 0 auto;
+}
+
+footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer .footer-content .Recruitment h2 {
+  color: orangered;
+  margin-top: 1.5rem;
+  font-family: "titr";
+}
+
+footer .footer-content .Recruitment li {
+  color: #fff;
+  font-size: 0.9rem;
+  font-family: "vazir";
+  color: #fff;
+}
+
+footer .footer-content .Recruitment li:hover {
+  letter-spacing: 0;
+  color: gray;
+}
+
+footer hr {
+  width: 15rem;
+  margin: 2rem auto;
+}
+
+footer .social-media .fab {
+  font-size: 2rem;
+  color: #fff;
+  margin: 1rem;
+  transition: 0.5s;
+}
+
+footer .social-media .fab:hover {
+  color: orangered;
 }
 
 *,
