@@ -1,6 +1,7 @@
 @import "colors";
 @import "header";
 @import "section";
+@import "section-two";
 
 *,
 *::before,
@@ -11,6 +12,7 @@
 }
 html {
   font-size: 100%;
+  overflow-x: hidden;
 }
 @font-face {
   font-family: "vazir";
