@@ -141,6 +141,12 @@ a li {
   }
 }
 
+@media (min-width: 1440px) {
+  a li {
+    font-size: 1.8rem;
+  }
+}
+
 a li:hover {
   color: orangered;
   letter-spacing: 0.2rem;
@@ -161,6 +167,12 @@ a li:hover {
   font-weight: bolder;
   font-size: 1.5rem;
   color: gray;
+}
+
+@media (min-width: 1440px) {
+  .title {
+    font-size: 2rem;
+  }
 }
 
 .row {
@@ -220,6 +232,13 @@ a li:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .row .education {
+    width: 24rem;
+    height: 33rem;
+  }
+}
+
 .row .education .image {
   width: 90%;
   margin-top: 0.8rem;
@@ -243,6 +262,12 @@ a li:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .row .education .text {
+    font-size: 1.8rem;
+  }
+}
+
 .row .education .span {
   display: inline-block;
   font-size: 1.1rem;
@@ -251,6 +276,12 @@ a li:hover {
 @media (min-width: 1024px) {
   .row .education .span {
     padding: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .row .education .span {
+    font-size: 1.4rem;
   }
 }
 
@@ -271,6 +302,15 @@ a li:hover {
 @media (min-width: 425px) {
   .button {
     font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .button {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    width: 16rem;
+    padding: 1.5rem;
   }
 }
 
@@ -323,6 +363,14 @@ a li:hover {
   }
 }
 
+@media (min-width: 1440px) {
+  .section-two .content-text {
+    display: block;
+    padding: 5.5rem 0;
+    font-size: 1.5rem;
+  }
+}
+
 .section-two .content-text h2 {
   text-align: center;
   font-family: "titr", sans-serif;
@@ -330,15 +378,27 @@ a li:hover {
   color: #022247;
 }
 
+@media (min-width: 1440px) {
+  .section-two .content-text h2 {
+    font-size: 2.5rem;
+  }
+}
+
 .section-two .content-text .btn {
   margin: 2rem auto;
   display: block;
 }
 
+@media (min-width: 1440px) {
+  .section-two .content-text .btn {
+    font-size: 1.7rem;
+    margin-top: 4rem;
+  }
+}
+
 footer {
   background-color: #022247;
   text-align: center;
-  padding: 1.5rem auto 0 auto;
 }
 
 footer .footer-content {
@@ -372,6 +432,12 @@ footer .footer-content .Recruitment h2 {
   }
 }
 
+@media (min-width: 1440px) {
+  footer .footer-content .Recruitment h2 {
+    font-size: 2rem;
+  }
+}
+
 footer .footer-content .Recruitment li {
   color: #fff;
   font-size: 0.9rem;
@@ -388,6 +454,12 @@ footer .footer-content .Recruitment li {
 @media (min-width: 1024px) {
   footer .footer-content .Recruitment li {
     margin: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  footer .footer-content .Recruitment li {
+    font-size: 1.3rem;
   }
 }
 
@@ -418,6 +490,12 @@ footer .social-media .fab {
   color: #fff;
   margin: 1rem;
   transition: 0.5s;
+}
+
+@media (min-width: 1440px) {
+  footer .social-media .fab {
+    font-size: 2.3rem;
+  }
 }
 
 footer .social-media .fab:hover {

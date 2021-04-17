@@ -31,7 +31,11 @@
       @media (min-width: 768px) {
         padding: 1rem;
         width: 50%;
-        // *font-size: 0.9rem;
+      }
+      @media (min-width: 1440px) {
+        display: block;
+        padding: 5.5rem 0;
+        font-size: 1.5rem;
       }
 
       h2 {
@@ -39,10 +43,17 @@
         font-family: "titr", sans-serif;
         font-size: 2rem;
         color: $color-blue;
+        @media (min-width: 1440px) {
+          font-size: 2.5rem;
+        }
       }
       .btn {
         margin: 2rem auto;
         display: block;
+        @media (min-width: 1440px) {
+          font-size: 1.7rem;
+          margin-top: 4rem;
+        }
       }
     }
   }

@@ -1,7 +1,7 @@
 footer {
   background-color: $color-blue;
   text-align: center;
-  padding: 1.5rem auto 0 auto;
+  //  * padding: 1.5rem auto 0 auto;
 
   .footer-content {
     display: flex;
@@ -23,6 +23,9 @@ footer {
         @media (min-width: 1024px) {
           margin-bottom: 1rem;
         }
+        @media (min-width: 1440px) {
+          font-size: 2rem;
+        }
       }
       li {
         color: $color-white;
@@ -34,6 +37,9 @@ footer {
         }
         @media (min-width: 1024px) {
           margin: 1rem;
+        }
+        @media (min-width: 1440px) {
+          font-size: 1.3rem;
         }
 
         &:hover {
@@ -59,6 +65,9 @@ footer {
       color: $color-white;
       margin: 1rem;
       transition: 0.5s;
+      @media (min-width: 1440px) {
+        font-size: 2.3rem;
+      }
 
       &:hover {
         color: $color-orange;

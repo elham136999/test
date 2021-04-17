@@ -13,6 +13,9 @@
   font-weight: bolder;
   font-size: 1.5rem;
   color: $color-gray;
+  @media (min-width: 1440px) {
+    font-size: 2rem;
+  }
 }
 .row {
   display: flex;
@@ -56,6 +59,10 @@
       flex-direction: column;
       justify-content: center;
     }
+    @media (min-width: 1440px) {
+      width: 24rem;
+      height: 33rem;
+    }
 
     .image {
       width: 90%;
@@ -71,6 +78,9 @@
       @media (min-width: 425px) {
         font-size: 1.4rem;
       }
+      @media (min-width: 1440px) {
+        font-size: 1.8rem;
+      }
     }
     .span {
       display: inline-block;
@@ -78,6 +88,9 @@
       //  * padding: 0.5rem 0 1.5rem 0;
       @media (min-width: 1024px) {
         padding: 0;
+      }
+      @media (min-width: 1440px) {
+        font-size: 1.4rem;
       }
     }
   }
@@ -97,6 +110,12 @@
   transition: 0.5s;
   @media (min-width: 425px) {
     font-size: 1.2rem;
+  }
+  @media (min-width: 1440px) {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    width: 16rem;
+    padding: 1.5rem;
   }
 
   &:hover {
