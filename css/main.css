@@ -454,6 +454,8 @@ footer .footer-content .Recruitment li {
 @media (min-width: 1024px) {
   footer .footer-content .Recruitment li {
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -477,6 +479,11 @@ footer hr {
   footer hr {
     display: none;
   }
+}
+
+footer .social-media {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 1024px) {
