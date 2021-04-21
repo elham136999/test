@@ -33,7 +33,9 @@
         width: 50%;
       }
       @media (min-width: 1024px) {
-        padding: 2rem;
+        padding: 2rem 1rem;
+        width: 50%;
+        right: 0;
       }
 
       @media (min-width: 1440px) {

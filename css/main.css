@@ -365,7 +365,9 @@ a li:hover {
 
 @media (min-width: 1024px) {
   .section-two .content-text {
-    padding: 2rem;
+    padding: 2rem 1rem;
+    width: 50%;
+    right: 0;
   }
 }
 
