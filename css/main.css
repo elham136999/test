@@ -224,7 +224,7 @@ a li:hover {
 
 @media (min-width: 1024px) {
   .row .education {
-    width: 18rem;
+    width: 20rem;
     height: 28rem;
     display: flex;
     flex-direction: column;
@@ -360,6 +360,12 @@ a li:hover {
   .section-two .content-text {
     padding: 1rem;
     width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-two .content-text {
+    padding: 2rem;
   }
 }
 
